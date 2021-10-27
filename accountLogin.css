@@ -177,7 +177,7 @@ div {
   background: rgba(255, 255, 255, 1);
 }
 
-#password {
+#passwordText {
   top: 0px;
   left: 1px;
   width: 299px;
@@ -204,7 +204,7 @@ div {
   background: rgba(255, 255, 255, 1);
 }
 
-#username {
+#usernameText {
   top: 0px;
   left: 1px;
   width: 299px;
