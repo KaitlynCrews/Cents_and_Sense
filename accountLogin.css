@@ -159,7 +159,8 @@ div {
   font-family: Roboto;
   font-size: 30px;
   text-align: center;
-  color: #000000;
+  color: white;
+  font-weight: bold;
 }
 
 #passwordtxt {
