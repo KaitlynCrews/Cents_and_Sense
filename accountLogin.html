@@ -20,7 +20,22 @@
     <title>cents_and_sense</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
+
+    <link rel="preload" href="information.html" as="style">
+    <link rel="preload" href="information.css" as="style">
+
+    <link rel="preload" href="newUser.html" as="style">
+    <link rel="preload" href="newUser.css" as="style">
+
+    <link rel="preload" href="signedAccount.html" as="style">
+    <link rel="preload" href="signedAccount.css" as="style">
+
+    <link rel="preload" href="unsignedCalculators.html" as="style">
+    <link rel="preload" href="unsignedCalculators.css" as="style">
+
     <link rel="StyleSheet" href="accountLogin.css" />
+    <link rel="StyleSheet" href="newUser.css" />
+
     <script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=4"></script>
     <!-- Add your custom HEAD content here -->
   </head>
@@ -57,7 +72,7 @@
         </a>
 
         <!--Overview Button (Bottom Left of Screen)-->
-        <a id="overviewbtn_cls_a" _par="" href="unsignedOverview.html">
+        <div><a id="overviewbtn_cls_a" _par="">
           <!--Circle behind .png-->
           <div id="ellipse_3"></div>
 
@@ -66,106 +81,30 @@
             <img src="skins/icon_ek2.png" id="icon_ek2" />
           </div>
         </a>
+      </div>
 
-        <!--Submit is above the top bar on screen.
-          if you bring the code below back in the bar moves down.-->
-
-      <!--Submit Button
- 
       <a id="submitbtn_cls_a" _par="" href="signedAccount.html">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <input type="submit" value="Login" />
-      </a>-->
-      <a id="submitbtn_cls_a" _par="" href="signedAccount.html">
-      <div id="submit">
-        submit
-      </div>
-    </a>
-
-      <div id="passwordtxt">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        </br><br /><input type="password" name="pswd" SIZE="10" /><br /> 
-      </form>
-        <div id="passwordText">
-          Password
-        </div>
-      </div>
-      </div>
-      <!--Submit Button--><!--
-      <a id="submitbtn_cls_a" _par="" href="signedAccount.html">
-      -->
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-          <input type="submit" value="Login" />
-      <!--</a>-->
-      <div id="submit">
-        submit
-      </div>
-
-      <div id="passwordtxt">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Password:<br /><input type="password" name="pswd" SIZE="50" /><br /> 
-      </form>
-        <!--<div id="passwordText">
-          Password
-        </div>-->
-      </div>
-
-      <!--KC to PS: the form was separated to fit into the original textbox placeholders
-       and submit button. It wont show up if you comment everything out.
-      </div>
-      <!--Submit Button--><!--
-      <a id="submitbtn_cls_a" _par="" href="signedAccount.html">
-      -->
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-          <input type="submit" value="Login" />
-      <!--</a>-->
-      <div id="submit">
-        submit
-      </div>
-
-      <div id="passwordtxt">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Password:<br /><input type="password" name="pswd" SIZE="50" /><br /> 
-      </form>
-        <!--<div id="passwordText">
-          Password
-        </div>-->
-      </div>
-
-      <!--KC to PS: the form was separated to fit into the original textbox placeholders
-       and submit button. It wont show up if you comment everything out.
-
-       The textboxes need to be resized to match what was previously there 
-       along with the lables/text.-->
-
-      <!--<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Username:<br /><input type="text" name="username" size="10" /><br />
-        Password:<br /><input type="password" name="pswd" SIZE="10" /><br />
-        <input type="submit" value="Login" />  
-    </form>-->
-
-      
-      <div id="usernametxt">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Username:</br><input type="text" name="username" size="500"/><br /> 
-    </form>
-       <!--<div id="usernameText">
-          Username
-        </div>-->
-      </div>
-      <a id="_new_user__link" href="newUser.html">
-        <div id="_new_user_">
-          New User?
+        <div id="rectangle_31"></div>
+        <div id="submit">
+          Submit
         </div>
       </a>
 
-       <!--The textboxes need to be resized to match what was previously there 
-       along with the lables/text.-->
+      
+      <div id="passwordtxt">
+        <div id="passwordtextbox"></div>
+        <div id="password">
+          Password
+        </div>
+      </div>
 
-      <!--KC to PS: the form was separated to fit into the original textbox placeholders
-       and submit button. It wont show up if you comment everything out.
+      <div id="usernametxt">
+        <div id="usernametextbox"></div>
+        <div id="username">
+          Username
+        </div>
+      </div>
 
-       The textboxes need to be resized to match what was previously there 
       <div style="width: auto; height: auto; position: fixed;">
         <div id="logintop"></div>
         <a
@@ -173,32 +112,15 @@
           href="https://www.behance.net/gallery/129500549/Cents-and-Sense"
           ><img src="skins/logo.png" id="logo"
         /></a>
-       along with the lables/text.-->
 
-      
-      <div id="usernametxt">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Username:</br><input type="text" name="username" size="500"/><br /> 
-    </form>
-       <!--<div id="usernameText">
-          Username
-        </div>-->
-      </div>
       <a id="_new_user__link" href="newUser.html">
       <div id="group_14">
         <div id="i" style="color: white;">
-          i
-        </div>
+          <a href="information.html" style="text-decoration: none; color: inherit; outline: 0;">i</a>
+          </div>
       </div>
     </div>
-    </div>
-  </body>
-</html>
 
-        <div id="_new_user_">
-          New User?
-          Username
-        </div>
       </div>
       <a id="_new_user__link" href="newUser.html">
         <div id="_new_user_">
@@ -215,11 +137,6 @@
           ><img src="skins/logo.png" id="logo"
         /></a>
 
-      <div id="group_14">
-        <div id="i" style="color: white;">
-          i
-        </div>
-      </div>
     </div>
     </div>
   </body>
