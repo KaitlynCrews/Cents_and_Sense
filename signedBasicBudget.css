@@ -434,3 +434,17 @@ div {
 }
 
 /* Add your custom CSS here */
+
+#percenttosavings {
+  top: 480px;
+  left: 145px;
+  width: 355px;
+  height: 73px;
+}
+
+#group_15 {
+  top: 480px;
+  left: 570px;
+  width: 359px;
+  height: 73px;
+}

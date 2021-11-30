@@ -620,3 +620,12 @@ div {
 }
 
 /* Add your custom CSS here */
+
+#save_btn {
+  top: 600px;
+  left: 1200px;
+  color: white;
+  text-decoration: none;
+  outline: 0;
+  font-size: 25px;
+}
