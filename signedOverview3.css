@@ -224,3 +224,47 @@ div {
 }
 
 /* Add your custom CSS here */
+#__p__incoming_finances {
+  top: 635px;
+  left: 141px;
+  width: 280px;
+  height: 42.5px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+#__p__groceries {
+  top: 635px;
+  left: 456px;
+  width: 280px;
+  height: 42.5px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+#__p__entertainment {
+  top: 635px;
+  left: 771px;
+  width: 280px;
+  height: 42.5px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+#__p__subscriptions {
+  top: 635px;
+  left: 1086px;
+  width: 280px;
+  height: 42.5px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
